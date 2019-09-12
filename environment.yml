@@ -1,0 +1,17 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - dask
+  - netcdf4
+  - cfgrib
+  - pydap
+  - scipy
+  - bottleneck
+  - distributed
+  - matplotlib
+  - cartopy
+  - seaborn
+  - jupyterlab
+  - pyviz::holoviz
