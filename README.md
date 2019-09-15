@@ -1,6 +1,6 @@
 # Python para Geociencias
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DangoMelon/python-geociencias/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DangoMelon/python-geociencias/master?urlpath=lab/tree/Notebooks/)
 
 El objetivo de este repositorio es dar una introducción en el uso de Python para las geociencias, especificamente en la implementación de algoritmos, manejo de datos y visualización tanto estática como interactiva.
 
