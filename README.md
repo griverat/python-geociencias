@@ -39,8 +39,22 @@ conda activate pangeo
 
 Sabrá si se encuentra dentro del nuevo entorno si en su terminal aparece el nombre del entorno de la siguiente manera: `(pangeo) user@hostname:~$`
 
+El archivo `postBuild` contiene comandos que agregarán extensiones a nuestra instalación de Jupyter. Por defecto, el script usa `bash` asi que deberá tener este shell instalado.
+
+```bash
+sh postBuild
+```
+
 Ahora deberá iniciar una sesión de JupyterLab ejecutando lo siguiente en una terminal.
 
 ```bash
 jupyter-lab
+```
+
+#### Actualización
+
+Para actualizar los paquetes del entorno de trabajo deberá ejecutar el siguiente comando
+
+```bash
+conda env update -f environment.yml
 ```
