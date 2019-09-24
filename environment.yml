@@ -17,4 +17,6 @@ dependencies:
   - pandas-profiling
   - jupyterlab
   - nodejs
+  - eofs
+  - spyder
   - pyviz::holoviz
