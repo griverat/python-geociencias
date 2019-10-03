@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Taken from https://github.com/dask/dask-tutorial/blob/master/binder/start
+
+# Replace DASK_DASHBOARD_URL with the proxy location
+sed -i -e "s|DASK_DASHBOARD_URL|/user/${JUPYTERHUB_USER}/proxy/8787|g" jupyterlab-workspace.json
+
+# Import the workspace
+jupyter lab workspaces import jupyterlab-workspace.json
+
+exec "$@"

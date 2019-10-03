@@ -1,0 +1,119 @@
+{
+    "data": {
+        "layout-restorer:data": {
+            "main": {
+                "dock": {
+                    "type": "split-area",
+                    "orientation": "horizontal",
+                    "sizes": [
+                        0.20889213628340117,
+                        0.5225160069858985,
+                        0.26859185673070024
+                    ],
+                    "children": [
+                        {
+                            "type": "split-area",
+                            "orientation": "vertical",
+                            "sizes": [
+                                0.39149888143176736,
+                                0.35850111856823264,
+                                0.25
+                            ],
+                            "children": [
+                                {
+                                    "type": "tab-area",
+                                    "currentIndex": 0,
+                                    "widgets": [
+                                        "dask-dashboard-launcher:individual-task-stream"
+                                    ]
+                                },
+                                {
+                                    "type": "tab-area",
+                                    "currentIndex": 0,
+                                    "widgets": [
+                                        "dask-dashboard-launcher:individual-progress"
+                                    ]
+                                },
+                                {
+                                    "type": "tab-area",
+                                    "currentIndex": 0,
+                                    "widgets": [
+                                        "dask-dashboard-launcher:individual-nprocessing"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tab-area",
+                            "currentIndex": 0,
+                            "widgets": [
+                                "notebook:Notebooks/1.Introduccion.ipynb"
+                            ]
+                        },
+                        {
+                            "type": "tab-area",
+                            "currentIndex": 0,
+                            "widgets": [
+                                "inspector:inspector"
+                            ]
+                        }
+                    ]
+                },
+                "mode": "multiple-document",
+                "current": "notebook:Notebooks/1.Introduccion.ipynb"
+            },
+            "left": {
+                "collapsed": true,
+                "widgets": [
+                    "filebrowser",
+                    "running-sessions",
+                    "dask-dashboard-launcher",
+                    "command-palette",
+                    "tab-manager",
+                    "extensionmanager.main-view"
+                ]
+            },
+            "right": {
+                "collapsed": true,
+                "widgets": []
+            }
+        },
+        "file-browser-filebrowser:cwd": {
+            "path": "Notebooks"
+        },
+        "inspector:inspector": {
+            "data": {}
+        },
+        "dask-dashboard-launcher:individual-nprocessing": {
+            "data": {
+                "route": "individual-nprocessing",
+                "label": "Processing Tasks"
+            }
+        },
+        "dask-dashboard-launcher:individual-progress": {
+            "data": {
+                "route": "individual-progress",
+                "label": "Progress"
+            }
+        },
+        "dask-dashboard-launcher:individual-task-stream": {
+            "data": {
+                "route": "individual-task-stream",
+                "label": "Task Stream"
+            }
+        },
+        "dask-dashboard-launcher": {
+            "url": "DASK_DASHBOARD_URL",
+            "cluster": ""
+        },
+        "notebook:Notebooks/1.Introduccion.ipynb": {
+            "data": {
+                "path": "Notebooks/1.Introduccion.ipynb",
+                "factory": "Notebook"
+            }
+        }
+    },
+    "metadata": {
+        "id": "/lab/workspaces/auto-N"
+    }
+}
