@@ -12,6 +12,10 @@ dependencies:
   - distributed
   - matplotlib
   - cartopy
+  - descartes
+  - geopandas
+  - shapely
+  - rasterio
   - seaborn
   - tqdm
   - pandas-profiling
@@ -21,6 +25,7 @@ dependencies:
   - spyder
   - pyviz::holoviews
   - pyviz::geoviews
+  - pyviz::panel
   - pyviz::hvplot
   - scikit-learn
   - intake
@@ -31,3 +36,4 @@ dependencies:
   - pip
   - pip:
       - dask_labextension
+      - salem
