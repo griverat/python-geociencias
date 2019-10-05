@@ -5,3 +5,5 @@ sed -i -e "s|DASK_DASHBOARD_URL|/user/${JUPYTERHUB_USER}/proxy/8787|g" jupyterla
 
 # Import the workspace
 jupyter lab workspaces import jupyterlab-workspace.json
+
+exec "$@"
