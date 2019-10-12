@@ -2,9 +2,13 @@ name: pangeo
 channels:
   - conda-forge
 dependencies:
+  - black
   - xarray
   - dask
+  - dask-jobqueue
+  - dask-kubernetes
   - netcdf4
+  - zarr
   - cfgrib
   - pydap
   - scipy
@@ -20,6 +24,7 @@ dependencies:
   - tqdm
   - pandas-profiling
   - jupyterlab
+  - jupyterlab_code_formatter
   - nodejs
   - eofs
   - spyder
@@ -36,4 +41,5 @@ dependencies:
   - pip
   - pip:
       - dask_labextension
+      - nbresuse
       - salem
